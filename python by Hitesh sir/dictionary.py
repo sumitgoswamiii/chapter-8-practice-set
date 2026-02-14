@@ -21,3 +21,10 @@ last_item = chai_type.popitem()
 print(last_item)
 print(chai_type)
 
+extra_spices = {"cardamom":"crushed","ginger":"sliced"}
+chai_recipe.update(extra_spices)
+
+print(f"updated chai recipe: {chai_recipe}")
+
+chai_size = chai_order["size"]
+print(f"chai size is: {chai_size}")
