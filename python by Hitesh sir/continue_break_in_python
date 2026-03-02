@@ -1,0 +1,21 @@
+# problem 1
+flavours = ["ginger","out of stock","lemon","discontinued","tulsi"]
+
+for flavour in flavours:
+    if flavour == "out of stock":
+        continue
+    if flavour == "discontinued":
+        break
+    print(f"{flavour} item found")
+print(f"out side of loop") 
+
+# problem 2
+staff = [("amit",15),("sumit",16),("raj",15),("rohan",17)]
+
+for name,age in staff:
+    if age <=18:
+        print(f"{name} is eligible to manage the staff")
+        break
+        
+    else:
+        print(f"No one is eligible to manage the staff")
